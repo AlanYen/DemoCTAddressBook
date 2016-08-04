@@ -15,6 +15,11 @@
 		2D4E178D1D5333B800CE58CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4E178B1D5333B800CE58CA /* LaunchScreen.storyboard */; };
 		2D4E17981D5333B800CE58CA /* CTAddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17971D5333B800CE58CA /* CTAddressBookTests.m */; };
 		2D4E17A31D5333B800CE58CA /* CTAddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17A21D5333B800CE58CA /* CTAddressBookUITests.m */; };
+		2D4E17F11D533CA200CE58CA /* CTAddressBookDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17E81D533CA200CE58CA /* CTAddressBookDefine.m */; };
+		2D4E17F21D533CA200CE58CA /* CTAddressBookIOS8Maneger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17EA1D533CA200CE58CA /* CTAddressBookIOS8Maneger.m */; };
+		2D4E17F31D533CA200CE58CA /* CTAddressBookIOS9Maneger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17EC1D533CA200CE58CA /* CTAddressBookIOS9Maneger.m */; };
+		2D4E17F41D533CA200CE58CA /* CTAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17EE1D533CA200CE58CA /* CTAddressBookManager.m */; };
+		2D4E17F51D533CA200CE58CA /* CTPersonInfoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17F01D533CA200CE58CA /* CTPersonInfoEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		2D4E179E1D5333B800CE58CA /* CTAddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTAddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4E17A21D5333B800CE58CA /* CTAddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookUITests.m; sourceTree = "<group>"; };
 		2D4E17A41D5333B800CE58CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4E17E71D533CA200CE58CA /* CTAddressBookDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookDefine.h; sourceTree = "<group>"; };
+		2D4E17E81D533CA200CE58CA /* CTAddressBookDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookDefine.m; sourceTree = "<group>"; };
+		2D4E17E91D533CA200CE58CA /* CTAddressBookIOS8Maneger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookIOS8Maneger.h; sourceTree = "<group>"; };
+		2D4E17EA1D533CA200CE58CA /* CTAddressBookIOS8Maneger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookIOS8Maneger.m; sourceTree = "<group>"; };
+		2D4E17EB1D533CA200CE58CA /* CTAddressBookIOS9Maneger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookIOS9Maneger.h; sourceTree = "<group>"; };
+		2D4E17EC1D533CA200CE58CA /* CTAddressBookIOS9Maneger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookIOS9Maneger.m; sourceTree = "<group>"; };
+		2D4E17ED1D533CA200CE58CA /* CTAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAddressBookManager.h; sourceTree = "<group>"; };
+		2D4E17EE1D533CA200CE58CA /* CTAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookManager.m; sourceTree = "<group>"; };
+		2D4E17EF1D533CA200CE58CA /* CTPersonInfoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPersonInfoEntity.h; sourceTree = "<group>"; };
+		2D4E17F01D533CA200CE58CA /* CTPersonInfoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPersonInfoEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		2D4E177C1D5333B800CE58CA /* CTAddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				2D4E17E61D533CA200CE58CA /* CTAddressbook */,
 				2D4E17801D5333B800CE58CA /* AppDelegate.h */,
 				2D4E17811D5333B800CE58CA /* AppDelegate.m */,
 				2D4E17831D5333B800CE58CA /* ViewController.h */,
@@ -138,6 +154,23 @@
 				2D4E17A41D5333B800CE58CA /* Info.plist */,
 			);
 			path = CTAddressBookUITests;
+			sourceTree = "<group>";
+		};
+		2D4E17E61D533CA200CE58CA /* CTAddressbook */ = {
+			isa = PBXGroup;
+			children = (
+				2D4E17E71D533CA200CE58CA /* CTAddressBookDefine.h */,
+				2D4E17E81D533CA200CE58CA /* CTAddressBookDefine.m */,
+				2D4E17E91D533CA200CE58CA /* CTAddressBookIOS8Maneger.h */,
+				2D4E17EA1D533CA200CE58CA /* CTAddressBookIOS8Maneger.m */,
+				2D4E17EB1D533CA200CE58CA /* CTAddressBookIOS9Maneger.h */,
+				2D4E17EC1D533CA200CE58CA /* CTAddressBookIOS9Maneger.m */,
+				2D4E17ED1D533CA200CE58CA /* CTAddressBookManager.h */,
+				2D4E17EE1D533CA200CE58CA /* CTAddressBookManager.m */,
+				2D4E17EF1D533CA200CE58CA /* CTPersonInfoEntity.h */,
+				2D4E17F01D533CA200CE58CA /* CTPersonInfoEntity.m */,
+			);
+			path = CTAddressbook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4E17F41D533CA200CE58CA /* CTAddressBookManager.m in Sources */,
 				2D4E17851D5333B800CE58CA /* ViewController.m in Sources */,
 				2D4E17821D5333B800CE58CA /* AppDelegate.m in Sources */,
 				2D4E177F1D5333B800CE58CA /* main.m in Sources */,
+				2D4E17F11D533CA200CE58CA /* CTAddressBookDefine.m in Sources */,
+				2D4E17F31D533CA200CE58CA /* CTAddressBookIOS9Maneger.m in Sources */,
+				2D4E17F51D533CA200CE58CA /* CTPersonInfoEntity.m in Sources */,
+				2D4E17F21D533CA200CE58CA /* CTAddressBookIOS8Maneger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CTAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CTAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
