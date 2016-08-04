@@ -14,6 +14,11 @@
 
 + (CTAddressBookManager *)manager {
     
+    //
+    // Reference:
+    // https://github.com/dsxNiubility/SXEasyAddressBook
+    //
+    
     static CTAddressBookManager *sharedInstance = nil;
     if (!sharedInstance) {
         static dispatch_once_t once;
