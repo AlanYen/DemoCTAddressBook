@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4E177F1D5333B800CE58CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E177E1D5333B800CE58CA /* main.m */; };
+		2D4E17821D5333B800CE58CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17811D5333B800CE58CA /* AppDelegate.m */; };
+		2D4E17851D5333B800CE58CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17841D5333B800CE58CA /* ViewController.m */; };
+		2D4E17881D5333B800CE58CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4E17861D5333B800CE58CA /* Main.storyboard */; };
+		2D4E178A1D5333B800CE58CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4E17891D5333B800CE58CA /* Assets.xcassets */; };
+		2D4E178D1D5333B800CE58CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4E178B1D5333B800CE58CA /* LaunchScreen.storyboard */; };
+		2D4E17981D5333B800CE58CA /* CTAddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17971D5333B800CE58CA /* CTAddressBookTests.m */; };
+		2D4E17A31D5333B800CE58CA /* CTAddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E17A21D5333B800CE58CA /* CTAddressBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4E17941D5333B800CE58CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4E17721D5333B800CE58CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4E17791D5333B800CE58CA;
+			remoteInfo = CTAddressBook;
+		};
+		2D4E179F1D5333B800CE58CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4E17721D5333B800CE58CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4E17791D5333B800CE58CA;
+			remoteInfo = CTAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4E177A1D5333B800CE58CA /* CTAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4E177E1D5333B800CE58CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D4E17801D5333B800CE58CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D4E17811D5333B800CE58CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D4E17831D5333B800CE58CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D4E17841D5333B800CE58CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D4E17871D5333B800CE58CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D4E17891D5333B800CE58CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4E178C1D5333B800CE58CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D4E178E1D5333B800CE58CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4E17931D5333B800CE58CA /* CTAddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTAddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4E17971D5333B800CE58CA /* CTAddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookTests.m; sourceTree = "<group>"; };
+		2D4E17991D5333B800CE58CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4E179E1D5333B800CE58CA /* CTAddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTAddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4E17A21D5333B800CE58CA /* CTAddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAddressBookUITests.m; sourceTree = "<group>"; };
+		2D4E17A41D5333B800CE58CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4E17771D5333B800CE58CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4E17901D5333B800CE58CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4E179B1D5333B800CE58CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4E17711D5333B800CE58CA = {
+			isa = PBXGroup;
+			children = (
+				2D4E177C1D5333B800CE58CA /* CTAddressBook */,
+				2D4E17961D5333B800CE58CA /* CTAddressBookTests */,
+				2D4E17A11D5333B800CE58CA /* CTAddressBookUITests */,
+				2D4E177B1D5333B800CE58CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4E177B1D5333B800CE58CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4E177A1D5333B800CE58CA /* CTAddressBook.app */,
+				2D4E17931D5333B800CE58CA /* CTAddressBookTests.xctest */,
+				2D4E179E1D5333B800CE58CA /* CTAddressBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4E177C1D5333B800CE58CA /* CTAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				2D4E17801D5333B800CE58CA /* AppDelegate.h */,
+				2D4E17811D5333B800CE58CA /* AppDelegate.m */,
+				2D4E17831D5333B800CE58CA /* ViewController.h */,
+				2D4E17841D5333B800CE58CA /* ViewController.m */,
+				2D4E17861D5333B800CE58CA /* Main.storyboard */,
+				2D4E17891D5333B800CE58CA /* Assets.xcassets */,
+				2D4E178B1D5333B800CE58CA /* LaunchScreen.storyboard */,
+				2D4E178E1D5333B800CE58CA /* Info.plist */,
+				2D4E177D1D5333B800CE58CA /* Supporting Files */,
+			);
+			path = CTAddressBook;
+			sourceTree = "<group>";
+		};
+		2D4E177D1D5333B800CE58CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4E177E1D5333B800CE58CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D4E17961D5333B800CE58CA /* CTAddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4E17971D5333B800CE58CA /* CTAddressBookTests.m */,
+				2D4E17991D5333B800CE58CA /* Info.plist */,
+			);
+			path = CTAddressBookTests;
+			sourceTree = "<group>";
+		};
+		2D4E17A11D5333B800CE58CA /* CTAddressBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4E17A21D5333B800CE58CA /* CTAddressBookUITests.m */,
+				2D4E17A41D5333B800CE58CA /* Info.plist */,
+			);
+			path = CTAddressBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4E17791D5333B800CE58CA /* CTAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4E17A71D5333B800CE58CA /* Build configuration list for PBXNativeTarget "CTAddressBook" */;
+			buildPhases = (
+				2D4E17761D5333B800CE58CA /* Sources */,
+				2D4E17771D5333B800CE58CA /* Frameworks */,
+				2D4E17781D5333B800CE58CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTAddressBook;
+			productName = CTAddressBook;
+			productReference = 2D4E177A1D5333B800CE58CA /* CTAddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4E17921D5333B800CE58CA /* CTAddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4E17AA1D5333B800CE58CA /* Build configuration list for PBXNativeTarget "CTAddressBookTests" */;
+			buildPhases = (
+				2D4E178F1D5333B800CE58CA /* Sources */,
+				2D4E17901D5333B800CE58CA /* Frameworks */,
+				2D4E17911D5333B800CE58CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4E17951D5333B800CE58CA /* PBXTargetDependency */,
+			);
+			name = CTAddressBookTests;
+			productName = CTAddressBookTests;
+			productReference = 2D4E17931D5333B800CE58CA /* CTAddressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D4E179D1D5333B800CE58CA /* CTAddressBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4E17AD1D5333B800CE58CA /* Build configuration list for PBXNativeTarget "CTAddressBookUITests" */;
+			buildPhases = (
+				2D4E179A1D5333B800CE58CA /* Sources */,
+				2D4E179B1D5333B800CE58CA /* Frameworks */,
+				2D4E179C1D5333B800CE58CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4E17A01D5333B800CE58CA /* PBXTargetDependency */,
+			);
+			name = CTAddressBookUITests;
+			productName = CTAddressBookUITests;
+			productReference = 2D4E179E1D5333B800CE58CA /* CTAddressBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4E17721D5333B800CE58CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alan-App";
+				TargetAttributes = {
+					2D4E17791D5333B800CE58CA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2D4E17921D5333B800CE58CA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2D4E17791D5333B800CE58CA;
+					};
+					2D4E179D1D5333B800CE58CA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2D4E17791D5333B800CE58CA;
+					};
+				};
+			};
+			buildConfigurationList = 2D4E17751D5333B800CE58CA /* Build configuration list for PBXProject "CTAddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4E17711D5333B800CE58CA;
+			productRefGroup = 2D4E177B1D5333B800CE58CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4E17791D5333B800CE58CA /* CTAddressBook */,
+				2D4E17921D5333B800CE58CA /* CTAddressBookTests */,
+				2D4E179D1D5333B800CE58CA /* CTAddressBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4E17781D5333B800CE58CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4E178D1D5333B800CE58CA /* LaunchScreen.storyboard in Resources */,
+				2D4E178A1D5333B800CE58CA /* Assets.xcassets in Resources */,
+				2D4E17881D5333B800CE58CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4E17911D5333B800CE58CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4E179C1D5333B800CE58CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4E17761D5333B800CE58CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4E17851D5333B800CE58CA /* ViewController.m in Sources */,
+				2D4E17821D5333B800CE58CA /* AppDelegate.m in Sources */,
+				2D4E177F1D5333B800CE58CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4E178F1D5333B800CE58CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4E17981D5333B800CE58CA /* CTAddressBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4E179A1D5333B800CE58CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4E17A31D5333B800CE58CA /* CTAddressBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4E17951D5333B800CE58CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4E17791D5333B800CE58CA /* CTAddressBook */;
+			targetProxy = 2D4E17941D5333B800CE58CA /* PBXContainerItemProxy */;
+		};
+		2D4E17A01D5333B800CE58CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4E17791D5333B800CE58CA /* CTAddressBook */;
+			targetProxy = 2D4E179F1D5333B800CE58CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D4E17861D5333B800CE58CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4E17871D5333B800CE58CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4E178B1D5333B800CE58CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4E178C1D5333B800CE58CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D4E17A51D5333B800CE58CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D4E17A61D5333B800CE58CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4E17A81D5333B800CE58CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D4E17A91D5333B800CE58CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D4E17AB1D5333B800CE58CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTAddressBook.app/CTAddressBook";
+			};
+			name = Debug;
+		};
+		2D4E17AC1D5333B800CE58CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTAddressBook.app/CTAddressBook";
+			};
+			name = Release;
+		};
+		2D4E17AE1D5333B800CE58CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTAddressBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTAddressBook;
+			};
+			name = Debug;
+		};
+		2D4E17AF1D5333B800CE58CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTAddressBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alan.Yen.CTAddressBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTAddressBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4E17751D5333B800CE58CA /* Build configuration list for PBXProject "CTAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4E17A51D5333B800CE58CA /* Debug */,
+				2D4E17A61D5333B800CE58CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4E17A71D5333B800CE58CA /* Build configuration list for PBXNativeTarget "CTAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4E17A81D5333B800CE58CA /* Debug */,
+				2D4E17A91D5333B800CE58CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D4E17AA1D5333B800CE58CA /* Build configuration list for PBXNativeTarget "CTAddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4E17AB1D5333B800CE58CA /* Debug */,
+				2D4E17AC1D5333B800CE58CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D4E17AD1D5333B800CE58CA /* Build configuration list for PBXNativeTarget "CTAddressBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4E17AE1D5333B800CE58CA /* Debug */,
+				2D4E17AF1D5333B800CE58CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D4E17721D5333B800CE58CA /* Project object */;
+}
